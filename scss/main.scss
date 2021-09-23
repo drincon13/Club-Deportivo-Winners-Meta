@@ -1,0 +1,56 @@
+
+// Operaciones
+$tamaño: 1000px;
+$tamaño-pequeño: 100px;
+$blanco: white;
+$azul: blue;
+$naranja: #ffa24d;
+$borde: medio;
+
+.parrafo{
+    color: $blanco;
+    font-size: $tamaño/70;
+}
+
+.event-size{
+    height: $tamaño/6;
+    width: $tamaño/4;
+
+    @if $borde == ancho{
+        border:$blanco solid $tamaño-pequeño/20;
+    }
+    @else if $borde == medio{
+        border:$azul solid $tamaño-pequeño/33;
+    }
+    @else if $borde == delgado{
+        border:$naranja solid $tamaño-pequeño/100;
+    }
+
+    @else{
+        border: black;
+    }
+}
+
+.event2-size{
+    height: $tamaño/5;
+    width: $tamaño/3;
+
+    @if $borde == ancho{
+        border:$blanco solid $tamaño-pequeño/20;
+    }
+    @else if $borde == medio{
+        border:$azul solid $tamaño-pequeño/33;
+    }
+    @else if $borde == delgado{
+        border:$naranja solid $tamaño-pequeño/100;
+    }
+
+    @else{
+        border: black;
+    }
+}
+
+.titulos{
+    color: $azul;
+    font-size: $tamaño-pequeño/3;
+}

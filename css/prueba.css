@@ -4,14 +4,14 @@
 
 .event-size {
   height: 166.66667px;
-  width: 250px;
+  width: 80%;
   border: blue solid 3.0303px; }
 
 .event2-size {
   height: 200px;
-  width: 333.33333px;
+  width: 80%;
   border: blue solid 3.0303px; }
 
 .titulos {
-  color: blue;
+  color: white;
   font-size: 33.33333px; }

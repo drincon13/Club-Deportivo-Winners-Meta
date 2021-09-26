@@ -31,34 +31,36 @@
     <header>
     
 <!-- Titulo de página -->
-        <div>
-            <ul class="title-flex-container">
-                <li>
-                    <img src="../imagenes/logo.png" alt="Logo" class="logo-size">
-                </li>
-                <li>
-                    <img src="../imagenes/titulo.png" alt="titulo" class="title-size">
-                </li>               
-            </ul>
-        </div>
+<div class="title-grid-container">
+    <div id="title-title">              
+        <img src="../imagenes/titulo.png" alt="titulo" class="title-size">
+    </div>
+    
+    <div id="title-logo">
+        <img src="../imagenes/logo.png" alt="Logo" class="logo-size">
+    </div>
+</div>
 
         <!-- Menu de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                <a class="nav-link" href="nosotros.html">Nosotros</a>
-                <a class="nav-link" href="inscripciones.html">Inscripciones</a>
-                <a class="nav-link" href="eventos.html">Eventos</a>
-                <a class="nav-link" href="faq.html">Preguntas frecuentes</a>
+        <nav>
+            <div class="menu-grid-container">
+                <div id="home">
+                    <a class="menu-color" href="../index.html">Home</a>
+                </div>
+                <div id="nosotros">
+                    <a class="menu-color" href="nosotros.html">Nosotros</a>
+                </div>
+                <div id="inscripciones">
+                    <a class="menu-color" href="inscripciones.html">Inscripciones</a>
+                </div>
+                <div id="eventos">
+                    <a class="menu-color" href="eventos.html">Eventos</a>
+                </div>
+                <div id="faq">
+                    <a class="menu-color" href="faq.html">FAQ</a>
                 </div>
             </div>
-            </div>
-        </nav>      
+        </nav>    
     </header> 
 
     <main>
@@ -71,26 +73,17 @@
 
         <!-- Info del Club -->
         <section>
-            <div>
-                <ul class="foto-text-container">
-                    <li>
-                        <div class="div">
-                            <img class="horizontal-size" src="../imagenes/equipo.jfif" alt="equipo">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="div">
-                            <ul class="foto-text-container2">
-                                <li>
-                                    <p class="paragraph-text"> <strong> El Club Deportivo Winners  Meta está comprometido con la formación integral de niños, niñas y jóvenes que desean desarrollar habilidades futbolísticas.</strong></p>
-                                </li>
-                                <li>
-                                    <p class="paragraph-text" >Es una organización dedicada a la formación deportiva de niños y jovenes. Además, está comprometida con su desarrollo integral en auces de construir una mejor sociedad.</p>
-                                </li>
-                            </ul> 
-                        </div>                        
-                    </li>
-                </ul>
+            <div class="foto-text-grid-container">
+
+                <div id="ft-foto">
+                    <img class="horizontal-size" src="../imagenes/equipo.jfif" alt="equipo">
+                </div>
+                <div id="ft-title">
+                    <p class="paragraph-text"> <strong> El Club Deportivo Winners  Meta está comprometido con la formación integral de niños, niñas y jóvenes que desean desarrollar habilidades futbolísticas.</strong></p>
+                </div>
+                <div id="ft-text">
+                    <p class="paragraph-text" >Es una organización dedicada a la formación deportiva de niños y jovenes. Además, está comprometida con su desarrollo integral en auces de construir una mejor sociedad.</p>
+                </div>           
             </div>
         </section>
 
@@ -166,32 +159,24 @@
                 
             </div>
         </section>
-
-        <section>
-            <div class="relleno"></div>
-            <div>
-                <ul class="instalaciones-flex-container">
-                    <li>
-                        <h2 class="subtitles">instalaciones</h2>
-                    </li>
-                </ul>
-            </div>
-            <div class="relleno"></div>
-        </section>
         <!-- Seccion instalaciones -->
 
         <section id="instalaciones-grid">
             <div class="instalaciones-grid-container">
 
+                <div id="instalaciones-title">
+                    <h2 class="subtitles">instalaciones</h2>
+                </div>
+
                 <div id="instalaciones-principal">
-                    <h2 class="subtitles">Estadio Municipal de Restrepo</h2>
+                    <h4 class="title-footer">Estadio</h4>
                     <img src="../imagenes/cancha-principal.jpeg" alt="estadio" class="big-size">
                 </div>
 
                 <div id="instalaciones-boton">
                     <p class="profile-paragraph">Nuestro sitio de entrenamiento se encuentra en el estadio Municipal de Restrepo Meta. En este, tenemos a nuestra disposición una cancha de cesped en increible estado y una cancha sintética de futbol 5 cerrada. Además, contamos con un equipo de entrenamiento muy completo (estacas, platillos, conos, escalera, arcos entre otros).</p>
                     <p class="profile-paragraph"> <strong>Para conocer mas acerca de nuestras instalaciones e implementos de entrenamiento te recomendamos ver el video dando click al botón de la parte inferior</strong></p>
-                    <button class="btn-video"><a class="button-color" target="-blank" href="https://www.youtube.com">Video Youtube</a></button>
+                    <button class="btn-video"><a class="button-color" target="-blank" href="https://www.youtube.com">Video</a></button>
                 </div>
 
                 <div id="instalaciones-foto1">

@@ -51,6 +51,28 @@ $borde: medio;
 }
 
 .titulos{
-    color: $azul;
+    color: $blanco;
     font-size: $tamaño-pequeño/3;
+}
+
+
+@media only screen and (max-width: 550px){
+    .event2-size{
+        height: $tamaño/5;
+        width: 80%;
+    
+        @if $borde == ancho{
+            border:$blanco solid $tamaño-pequeño/20;
+        }
+        @else if $borde == medio{
+            border:$azul solid $tamaño-pequeño/33;
+        }
+        @else if $borde == delgado{
+            border:$naranja solid $tamaño-pequeño/100;
+        }
+    
+        @else{
+            border: black;
+        }
+    }
 }
